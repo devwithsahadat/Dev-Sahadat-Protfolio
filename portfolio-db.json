@@ -1,0 +1,184 @@
+{
+  "about": {
+    "name": "Md. Sahadat Hossain",
+    "role": "Full-Stack Web Developer (MERN)",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400",
+    "bio": "I am a dedicated Full-Stack Web Developer with a passion for building highly interactive, accessible, and performant web applications. Specializing in the MERN Stack, TypeScript, and modern styling solutions like Tailwind CSS, I love creating clean architectures and seamless digital experiences.",
+    "email": "fiverrprince34@gmail.com",
+    "phone": "+880 1876-543210",
+    "location": "Chittagong, Bangladesh",
+    "education": "B.Sc. in Computer Science & Engineering",
+    "experience": "3+ Years of Professional Web Development",
+    "resumeUrl": "#",
+    "logoType": "text",
+    "logoText": "Sahadat Hossain",
+    "logoImage": ""
+  },
+  "skills": [
+    {
+      "id": "skill-1",
+      "category": "Frontend",
+      "name": "React.js / Next.js",
+      "progress": 95,
+      "icon": "Layers"
+    },
+    {
+      "id": "skill-2",
+      "category": "Frontend",
+      "name": "TypeScript",
+      "progress": 90,
+      "icon": "Code"
+    },
+    {
+      "id": "skill-3",
+      "category": "Frontend",
+      "name": "Tailwind CSS",
+      "progress": 98,
+      "icon": "Palette"
+    },
+    {
+      "id": "skill-4",
+      "category": "Backend",
+      "name": "Node.js & Express",
+      "progress": 88,
+      "icon": "Server"
+    },
+    {
+      "id": "skill-5",
+      "category": "Backend",
+      "name": "MongoDB & PostgreSQL",
+      "progress": 85,
+      "icon": "Database"
+    },
+    {
+      "id": "skill-6",
+      "category": "Backend",
+      "name": "RESTful API Design",
+      "progress": 92,
+      "icon": "Cpu"
+    },
+    {
+      "id": "skill-7",
+      "category": "Tools & Others",
+      "name": "Git & GitHub",
+      "progress": 90,
+      "icon": "GitBranch"
+    },
+    {
+      "id": "skill-8",
+      "category": "Tools & Others",
+      "name": "Docker & Cloud Deployments",
+      "progress": 75,
+      "icon": "Cloud"
+    },
+    {
+      "id": "skill-9",
+      "category": "Tools & Others",
+      "name": "Firebase / Auth / OAuth",
+      "progress": 85,
+      "icon": "Key"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "TechMart E-Commerce Ecosystem",
+      "description": "A high-performance full-stack e-commerce solution with custom payment gateways, secure authentication, real-time stock counts, and a comprehensive order status admin tracking module.",
+      "technologies": [
+        "React",
+        "Express.js",
+        "MongoDB",
+        "Node.js",
+        "Tailwind CSS"
+      ],
+      "githubLink": "https://github.com/nijamhossen/techmart-ecommerce",
+      "liveLink": "https://techmart-demo.vercel.app",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "proj-2",
+      "title": "SaaS Analytics & Operations Dashboard",
+      "description": "An interactive real-time telemetry dashboard representing revenue cohorts, user retention logs, server uptime statuses, and dynamic report generators with beautiful graphical models.",
+      "technologies": [
+        "React",
+        "D3.js",
+        "Recharts",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "githubLink": "https://github.com/nijamhossen/saas-analytics-board",
+      "liveLink": "https://saas-board-demo.vercel.app",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "proj-3",
+      "title": "DevConnect Professional Network",
+      "description": "A social network and collaboration platform for developers. Includes real-time chat, project pairing searches, interactive developer profiles, and a Q&A community forum.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "MongoDB",
+        "Express"
+      ],
+      "githubLink": "https://github.com/nijamhossen/devconnect-social",
+      "liveLink": "https://devconnect-demo.vercel.app",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "title": "Mastering React 19 and Vite 6 Performance",
+      "content": "React 19 brings exciting features such as server components, action hooks, and automatic asset loading. When paired with Vite 6, compiling and bundling becomes incredibly fast.\n\n### Why React 19? \nReact 19 simplifies how state handles async transactions. For instance, using the new `useActionState` hook reduces boilerplates for handling form loading sequences and error states.\n\n```tsx\nconst [state, formAction, isPending] = useActionState(\n  async (prevState, formData) => {\n    const response = await apiCall(formData.get('email'));\n    return response.data;\n  },\n  null\n);\n```\n\n### Optimizing Asset Delivery in Vite\nVite 6 includes improved CSS splitting and support for the new module runner. By leveraging route-based lazy loading via `React.lazy` and `Suspense`, we can slash initial bundle weight by over 45%, providing near-instant loading for users on slower cellular connections.",
+      "date": "July 12, 2026",
+      "readTime": "5 min read",
+      "author": "Md. Nijam Hossen",
+      "tags": [
+        "React",
+        "Vite",
+        "Frontend",
+        "Performance"
+      ],
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800",
+      "seoKeywords": "React 19, Vite 6, React performance, frontend architecture"
+    },
+    {
+      "id": "blog-2",
+      "title": "A Clean Guide to Tailwind CSS v4.0 Structuring",
+      "content": "Tailwind CSS v4.0 is built from the ground up for raw speed and streamlined configuration. In this article, we cover configuring customized color palettes, theme variables, and keeping utility clutter to a minimum.\n\n### The New CSS-First Configuration\nForget `tailwind.config.js`! Tailwind v4 is configured directly in your CSS files using the new `@theme` directive. This brings design values closer to standard CSS variables.\n\n```css\n@import \"tailwindcss\";\n\n@theme {\n  --color-primary-500: #0ea5e9;\n  --font-display: \"Space Grotesk\", sans-serif;\n}\n```\n\nBy leveraging this CSS-first approach, developers can compile builds up to 10x faster, ensuring fluid previews during design iterations and optimal build outcomes.",
+      "date": "June 28, 2026",
+      "readTime": "4 min read",
+      "author": "Md. Nijam Hossen",
+      "tags": [
+        "Tailwind CSS",
+        "CSS",
+        "Design System"
+      ],
+      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800",
+      "seoKeywords": "Tailwind CSS v4, theme customization, CSS design variables"
+    }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/nijamhossen",
+    "linkedin": "https://linkedin.com/in/nijamhossen",
+    "facebook": "https://facebook.com/nijam.hossen",
+    "twitter": "https://twitter.com/nijamhossen",
+    "youtube": "",
+    "externalResume": "https://drive.google.com/your-resume-link"
+  },
+  "inquiries": [
+    {
+      "id": "inq-1",
+      "name": "Jane Doe",
+      "email": "jane.doe@techcorp.com",
+      "subject": "Inquiry: Full-Stack React Project Collaboration",
+      "message": "Hi Nijam, I saw your portfolio and would love to discuss a remote freelance React role we have available. Let me know if you are open for a quick call this week!",
+      "date": "2026-07-13T18:30:00.000Z",
+      "status": "read"
+    }
+  ],
+  "admin": {
+    "password": "admin"
+  }
+}

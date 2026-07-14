@@ -1,0 +1,6 @@
+{
+  "name": "Developer Portfolio",
+  "description": "An interactive dark-themed developer portfolio website with automated contact management, real-time customizer, blog posts, and secure admin dashboard powered by a local JSON database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
